@@ -1,0 +1,32 @@
+{
+  "name": "drift",
+  "version": "1.0.0",
+  "description": "A plugin based web scraper",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsyogesh/drift.git"
+  },
+  "keywords": [
+    "scrape",
+    "scraper",
+    "web"
+  ],
+  "author": "Yogesh Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsyogesh/drift/issues"
+  },
+  "homepage": "https://github.com/itsyogesh/drift#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "lodash": "^4.7.0",
+    "nightmare": "^2.2.0",
+    "verbal-expressions": "^0.2.1",
+    "vo": "^3.1.1",
+    "x-ray": "^2.2.0"
+  }
+}

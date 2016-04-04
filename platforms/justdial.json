@@ -1,0 +1,15 @@
+{
+  "website_url": "https://justdial.com",
+  "list_selector": "li.cntanr",
+  "list_selectors": {
+    "name": ".store-name .jcn a",
+    "url": ".store-name .jcn a@href"
+  },
+  "wait_selector": ".company-details",
+  "page_item_selectors": {
+    "name": ".company-details span.fn",
+    "contact": [".comp-contact .telCntct a"],
+    "address": ".comp-contact #fulladdress",
+    "tags": [".showmore a"]
+  }
+}
