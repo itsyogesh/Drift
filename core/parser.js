@@ -13,8 +13,15 @@ var parser = {
     });
     return result;
   },
-  list: function(document, selectors){
+  list: function(document, selector){
+    var result = new Promise(function(resolve, reject){
+      xray(document, selector.list_selector, selector.list_items)(function(err, result){
+        if(err) reject(err);
+        resolve(result);
+      })
+    });
 
+    return result;
   }
 }
 

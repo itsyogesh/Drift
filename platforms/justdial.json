@@ -1,7 +1,7 @@
 {
   "website_url": "https://justdial.com",
   "list_selector": "li.cntanr",
-  "list_selectors": {
+  "list_items": {
     "name": ".store-name .jcn a",
     "url": ".store-name .jcn a@href"
   },
