@@ -24,7 +24,7 @@
   "dependencies": {
     "express": "^4.13.4",
     "lodash": "^4.7.0",
-    "nightmare": "^2.2.0",
+    "nightmare": "^2.3.1",
     "verbal-expressions": "^0.2.1",
     "vo": "^3.1.1",
     "x-ray": "^2.2.0"
